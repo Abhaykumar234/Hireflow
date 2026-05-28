@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: hireflow-backend
+    runtime: java
+    buildCommand: cd hireflow-backend/hireflow-backend && ./mvnw clean package -DskipTests
+    startCommand: cd hireflow-backend/hireflow-backend && java -jar target/*.jar
+    envVars:
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
