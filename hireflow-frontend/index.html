@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HireFlow - Recruitment Suite</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-error": "#ffffff",
+              "surface-bright": "#f7f9fb",
+              "surface-container-lowest": "#ffffff",
+              "on-primary-fixed-variant": "#0038b6",
+              "on-primary-fixed": "#001452",
+              "on-error-container": "#93000a",
+              "on-secondary-fixed-variant": "#38485d",
+              "surface-dim": "#d8dadc",
+              "secondary": "#505f76",
+              "surface-container-high": "#e6e8ea",
+              "on-secondary-fixed": "#0b1c30",
+              "on-surface": "#191c1e",
+              "inverse-surface": "#2d3133",
+              "on-surface-variant": "#434656",
+              "surface-container": "#eceef0",
+              "surface": "#f7f9fb",
+              "outline-variant": "#c3c5d9",
+              "surface-container-low": "#f2f4f6",
+              "on-tertiary-fixed-variant": "#004e60",
+              "secondary-container": "#d0e1fb",
+              "on-secondary": "#ffffff",
+              "primary-container": "#0052ff",
+              "on-secondary-container": "#54647a",
+              "surface-container-highest": "#e0e3e5",
+              "tertiary-fixed-dim": "#4cd6ff",
+              "error-container": "#ffdad6",
+              "primary": "#003ec7",
+              "inverse-on-surface": "#eff1f3",
+              "tertiary-container": "#006f89",
+              "secondary-fixed": "#d3e4fe",
+              "secondary-fixed-dim": "#b7c8e1",
+              "background": "#f7f9fb",
+              "on-tertiary": "#ffffff",
+              "on-tertiary-container": "#bcecff",
+              "surface-variant": "#e0e3e5",
+              "on-primary-container": "#dfe3ff",
+              "surface-tint": "#004ced",
+              "tertiary": "#005569",
+              "on-tertiary-fixed": "#001f28",
+              "inverse-primary": "#b7c4ff",
+              "on-primary": "#ffffff",
+              "error": "#ba1a1a",
+              "primary-fixed-dim": "#b7c4ff",
+              "tertiary-fixed": "#b7eaff",
+              "primary-fixed": "#dde1ff",
+              "on-background": "#191c1e",
+              "outline": "#737688"
+            },
+            spacing: {
+              "margin-desktop": "40px",
+              "margin-mobile": "16px",
+              "container-max": "1440px",
+              "gutter": "24px",
+              "unit": "8px",
+              "margin-tablet": "24px"
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"]
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body { font-family: 'Inter', sans-serif; background-color: #f7f9fb; }
+      .glass-card {
+        background: rgba(255,255,255,0.7);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid rgba(255,255,255,0.4);
+      }
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

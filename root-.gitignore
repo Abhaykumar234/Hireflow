@@ -1,0 +1,28 @@
+# ============ BACKEND ============
+hireflow-backend/hireflow-backend/target/
+hireflow-backend/hireflow-backend/data/
+hireflow-backend/hireflow-backend/*.db
+hireflow-backend/hireflow-backend/*.trace.db
+
+# ============ FRONTEND ============
+hireflow-frontend/node_modules/
+hireflow-frontend/dist/
+hireflow-frontend/.env
+hireflow-frontend/.env.local
+hireflow-frontend/.env.production
+
+# ============ ENV / SECRETS ============
+.env
+.env.local
+*.env
+
+# ============ OS ============
+.DS_Store
+Thumbs.db
+
+# ============ IDE ============
+.vscode/settings.json
+.idea/
+
+# ============ LOGS ============
+*.log
